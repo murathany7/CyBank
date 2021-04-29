@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CyBank</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="hello_blank_fragment">hello_blank_fragment</string>
+</resources>

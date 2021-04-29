@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_centerVertical="true"
+    android:layout_gravity="center"
+    android:background="#DADADA"
+    tools:context=".Fragments.AddAccountFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/colorPrimary"/>
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:src="@drawable/ic_back"
+        android:background="@color/colorPrimary" />
+
+    <ImageButton
+        android:id="@+id/forwardbutton"
+        android:layout_gravity="right"
+        android:layout_width="40dp"
+        android:layout_height="25dp"
+        android:background="@color/colorPrimary"
+        android:src="@drawable/ic_checkmark" />
+
+
+
+    <EditText
+        android:id="@+id/accountName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Account Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/initialBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="90dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="Initial Balance (Optional)"
+        android:inputType="numberDecimal" />
+
+</FrameLayout>

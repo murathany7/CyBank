@@ -1,0 +1,119 @@
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--------------------------< [0;36mcoms.vb1:CyBank[0;1m >---------------------------[m
+[[1;34mINFO[m] [1mBuilding CyBank 0.0.1-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:resources[m [1m(default-resources)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:compile[m [1m(default-compile)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.2.0:testResources[m [1m(default-testResources)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered properties files.
+[[1;34mINFO[m] Copying 1 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.1:testCompile[m [1m(default-testCompile)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] Nothing to compile - all classes are up to date
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.2:test[m [1m(default-test)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running coms.vb1.CyBank.[1mCyBankApplicationTests[m
+03:28:26.101 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+03:28:26.131 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+03:28:26.236 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [coms.vb1.CyBank.CyBankApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+03:28:26.278 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [coms.vb1.CyBank.CyBankApplicationTests], using SpringBootContextLoader
+03:28:26.293 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [coms.vb1.CyBank.CyBankApplicationTests]: class path resource [coms/vb1/CyBank/CyBankApplicationTests-context.xml] does not exist
+03:28:26.295 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [coms.vb1.CyBank.CyBankApplicationTests]: class path resource [coms/vb1/CyBank/CyBankApplicationTestsContext.groovy] does not exist
+03:28:26.295 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [coms.vb1.CyBank.CyBankApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+03:28:26.296 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [coms.vb1.CyBank.CyBankApplicationTests]: CyBankApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:28:26.401 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [coms.vb1.CyBank.CyBankApplicationTests]
+03:28:26.662 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/mnt/c/Users/seade/workspace/VB_1/Backend/CyBank/target/classes/coms/vb1/CyBank/CyBankApplication.class]
+03:28:26.666 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration coms.vb1.CyBank.CyBankApplication for test class coms.vb1.CyBank.CyBankApplicationTests
+03:28:27.106 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [coms.vb1.CyBank.CyBankApplicationTests]: using defaults.
+03:28:27.109 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+03:28:27.243 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@4ebff610, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@60410cd, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@44d52de2, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@95e33cc, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@38604b81, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1e44b638, org.springframework.test.context.transaction.TransactionalTestExecutionListener@7393222f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@babafc2, org.springframework.test.context.event.EventPublishingTestExecutionListener@31add175, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@ae3540e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@600b9d27, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3688eb5b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@69f1a286, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@7922d892, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@457c9034]
+03:28:27.268 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@4671115f testClass = CyBankApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@36cda2c2 testClass = CyBankApplicationTests, locations = '{}', classes = '{class coms.vb1.CyBank.CyBankApplication}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@19d481b, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@4d910fd6, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@69e1dd28, org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@2bfc268b, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@10163d6, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@1d29cf23], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+03:28:27.495 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.2)
+
+2021-04-05 03:28:28.855  INFO 1205 --- [           main] coms.vb1.CyBank.CyBankApplicationTests   : Starting CyBankApplicationTests using Java 11.0.9.1 on Laptop-McGhee with PID 1205 (started by jordan in /mnt/c/Users/seade/workspace/VB_1/Backend/CyBank)
+2021-04-05 03:28:28.863  INFO 1205 --- [           main] coms.vb1.CyBank.CyBankApplicationTests   : No active profile set, falling back to default profiles: default
+2021-04-05 03:28:33.107  INFO 1205 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-05 03:28:33.428  INFO 1205 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 291 ms. Found 4 JPA repository interfaces.
+2021-04-05 03:28:36.915  INFO 1205 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-05 03:28:37.931  INFO 1205 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-05 03:28:38.476  INFO 1205 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-05 03:28:38.762  INFO 1205 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-04-05 03:28:39.456  INFO 1205 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-05 03:28:40.200  INFO 1205 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-05 03:28:43.308 DEBUG 1205 --- [           main] org.hibernate.SQL                        : drop table if exists accounts CASCADE 
+2021-04-05 03:28:43.314 DEBUG 1205 --- [           main] org.hibernate.SQL                        : drop table if exists loans CASCADE 
+2021-04-05 03:28:43.314 DEBUG 1205 --- [           main] org.hibernate.SQL                        : drop table if exists transaction CASCADE 
+2021-04-05 03:28:43.315 DEBUG 1205 --- [           main] org.hibernate.SQL                        : drop table if exists user CASCADE 
+2021-04-05 03:28:43.316 DEBUG 1205 --- [           main] org.hibernate.SQL                        : drop sequence if exists hibernate_sequence
+2021-04-05 03:28:43.330 DEBUG 1205 --- [           main] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by 1
+2021-04-05 03:28:43.342 DEBUG 1205 --- [           main] org.hibernate.SQL                        : create table accounts (unique_account_id integer not null, account_name varchar(255), account_number integer, account_type char(255), unique_user_id integer not null, primary key (unique_account_id))
+2021-04-05 03:28:43.370 DEBUG 1205 --- [           main] org.hibernate.SQL                        : create table loans (unique_loan_id integer not null, created_on timestamp, interest_rate double, minimum_payment double, principle_balance double, remaining_balance double, unique_user_id integer not null, primary key (unique_loan_id))
+2021-04-05 03:28:43.379 DEBUG 1205 --- [           main] org.hibernate.SQL                        : create table transaction (transaction_id integer not null, amount double, description varchar(255), submission_date timestamp, transaction_type integer, unique_account_id integer not null, unique_user_id integer not null, primary key (transaction_id))
+2021-04-05 03:28:43.385 DEBUG 1205 --- [           main] org.hibernate.SQL                        : create table user (unique_user_id integer not null, account_type char(255), age integer, created_on timestamp, email varchar(255), income integer, name varchar(255), password varchar(255), ssn varchar(255), primary key (unique_user_id))
+2021-04-05 03:28:43.394 DEBUG 1205 --- [           main] org.hibernate.SQL                        : alter table accounts add constraint FK322vt7qe9yysk121quewacd1v foreign key (unique_user_id) references user
+2021-04-05 03:28:43.445 DEBUG 1205 --- [           main] org.hibernate.SQL                        : alter table loans add constraint FK142wxa3vrcfe3dsi0rdc004c5 foreign key (unique_user_id) references user
+2021-04-05 03:28:43.451 DEBUG 1205 --- [           main] org.hibernate.SQL                        : alter table transaction add constraint FKmcahvv7bpq7xodway3o0tkd6x foreign key (unique_account_id) references accounts
+2021-04-05 03:28:43.462 DEBUG 1205 --- [           main] org.hibernate.SQL                        : alter table transaction add constraint FK9nb2na29rqjk046fk0qsmmq8c foreign key (unique_user_id) references user
+2021-04-05 03:28:43.479  INFO 1205 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-05 03:28:43.517  INFO 1205 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 03:28:46.472  WARN 1205 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-05 03:28:46.863  INFO 1205 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:796b8fa5-9442-4ef4-b426-8df0cc5e2f86'
+2021-04-05 03:28:47.717  INFO 1205 --- [           main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-05 03:28:48.831  INFO 1205 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 03:28:50.261  INFO 1205 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-05 03:28:50.377  INFO 1205 --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-05 03:28:50.491  INFO 1205 --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-05 03:28:51.085  INFO 1205 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteAccountUsingDELETE_1
+2021-04-05 03:28:51.093  INFO 1205 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAccountsByUserIdUsingGET_1
+2021-04-05 03:28:51.098  INFO 1205 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: findAllAccountsUsingGET_1
+2021-04-05 03:28:51.180  INFO 1205 --- [           main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: deleteTransactionUsingDELETE_1
+2021-04-05 03:28:51.351  INFO 1205 --- [           main] coms.vb1.CyBank.CyBankApplicationTests   : Started CyBankApplicationTests in 23.833 seconds (JVM running for 27.16)
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 25.948 s - in coms.vb1.CyBank.[1mCyBankApplicationTests[m
+2021-04-05 03:28:51.965  INFO 1205 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-05 03:28:51.977  INFO 1205 --- [extShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-05 03:28:51.978  INFO 1205 --- [extShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-05 03:28:51.981 DEBUG 1205 --- [extShutdownHook] org.hibernate.SQL                        : drop table if exists accounts CASCADE 
+2021-04-05 03:28:51.997 DEBUG 1205 --- [extShutdownHook] org.hibernate.SQL                        : drop table if exists loans CASCADE 
+2021-04-05 03:28:51.999 DEBUG 1205 --- [extShutdownHook] org.hibernate.SQL                        : drop table if exists transaction CASCADE 
+2021-04-05 03:28:52.003 DEBUG 1205 --- [extShutdownHook] org.hibernate.SQL                        : drop table if exists user CASCADE 
+2021-04-05 03:28:52.006 DEBUG 1205 --- [extShutdownHook] org.hibernate.SQL                        : drop sequence if exists hibernate_sequence
+2021-04-05 03:28:52.012  INFO 1205 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-05 03:28:52.025  INFO 1205 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.2.0:jar[m [1m(default-jar)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mspring-boot-maven-plugin:2.4.2:repackage[m [1m(repackage)[m @ [36mCyBank[0;1m ---[m
+[[1;34mINFO[m] Replacing main artifact with repackaged archive
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  36.693 s
+[[1;34mINFO[m] Finished at: 2021-04-05T03:28:54-05:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m

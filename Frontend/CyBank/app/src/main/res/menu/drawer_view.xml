@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_fragment"
+            android:icon="@drawable/ic_home"
+            android:title="Accounts" />
+        <item
+            android:id="@+id/nav_third_fragment"
+            android:icon="@drawable/ic_plan"
+            android:title="Schedule Payment" />
+        <item
+            android:id="@+id/nav_fourth_fragment"
+            android:icon="@drawable/ic_loan"
+            android:title="Loans" />
+        <item
+            android:id="@+id/userReport"
+            android:title="User Report" />
+    </group>
+    <item android:title="Misc items">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_fifth_fragment"
+                    android:icon="@drawable/ic_chat"
+                    android:title="Chat" />
+                <item
+                    android:id="@+id/nav_sixth_fragment"
+                    android:icon="@drawable/ic_settings"
+                    android:title="Settings" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
