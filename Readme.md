@@ -4,7 +4,7 @@
 - Cutler Thayer
 - Raj Singh
 - Jordan McGhee
-The problem being addressed: Banking solutions for students.
+### The problem being addressed: Banking solutions for students.
 ## This app enables users to:
  - create accounts 
  - make transactions
